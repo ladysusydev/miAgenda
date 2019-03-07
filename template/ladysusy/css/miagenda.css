@@ -1,0 +1,219 @@
+/*
+ * CSS para el sistema
+ * 
+ * Author      José Roberto Alas <jrobertoalas@gmail.com>
+ * Copyright   Copyright (C) 2019, Open Source LadySusy
+ */
+
+body { 
+  background: url('../../../imagenes/Fondo.png') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 20px;
+  font-size: 14px;
+  padding-top: 3rem !important;
+}
+
+.imgAgenda {
+    background-image: url('../../../imagenes/miAgenda.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.container{
+padding: 25px;   
+} 
+
+.agen {
+  background: #f8f8f8;
+  height:544px;
+  max-height:544px;
+  margin: auto;
+}
+
+.agen1 {
+  height:544px;
+  max-height:544px;
+  margin: auto;
+  padding-right: 5px;
+}
+
+.agen2 {
+  height:544px;
+  max-height:544px;
+  margin: auto;
+  padding-left: 5px;
+}
+
+.cajaForm {
+  width: 100%;
+  margin-top: 0px;  
+}
+
+.cajatext {
+  width: 100%;
+  background: transparent;
+  background-color: #f8f8f8 !important;
+  border: none !important;
+  border-bottom: solid 1px #c9c9c9 !important;
+  height: 18px !important;
+  margin-bottom: 0px !important;
+}
+
+.cajaImp {
+  width: 30%;
+  float: right;
+  margin-top: 53px;
+  margin-right: 5px;
+}
+
+.cajaAgen {
+  width: 100%;
+  max-height: 380px;
+  overflow: auto;
+  border-radius:5px 5px 5px 5px;
+  box-shadow:0px 0px 2px 1px rgba(1,0,0,0.075);
+  -moz-box-shadow: 0px 0px 2px 1px rgba(1,0,0,0.075);
+  -webkit-box-shadow: 0px 0px 2px 1px rgba(1,0,0,0.075);
+}
+
+#pagina1 {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#pagina1 li {
+    padding-left: 5px;
+    max-width: 400px;
+    font-family: "Noto Serif Armenian", "Noto Serif Georgian", "Noto Serif", "serif";
+    font-size: 13px;
+    list-style-image: url("../../../imagenes/bullet.png");
+    margin: 3px 3px 3px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#pagina1 li.sel {
+     background: rgb(221, 149, 47); 
+}
+
+#pagina2 {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#pagina2 li {
+    padding-left: 5px;
+    max-width: 400px;
+    font-family: "Noto Serif Armenian", "Noto Serif Georgian", "Noto Serif", "serif";
+    font-size: 13px !important;
+    list-style-image: url("../../../imagenes/bullet.png");
+    margin: 3px 3px 3px 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+#pagina2 li.sel {
+    background: rgb(38, 126, 166);
+}
+
+.del_wrapper{float:right;}
+
+
+#busq-cont {
+    width: 820px;
+    margin: 0 auto;
+}
+
+#busq-left {
+   float: left;
+}
+
+#busq-right {
+   float: right;
+   color: #ffffff;
+}
+.clear-both {
+   clear: both;
+}
+
+a.mahref:link, a.mahref:hover, a.mahref:active, a.mahref:visited {
+    color: #0e2851;
+    text-decoration: none;
+}
+
+#agendaPie { 
+    margin: 0 auto; 
+    font-size: 13px !important;
+    color: #fff;
+ }
+ 
+ .titulosAdmin { 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px !important;
+    color: #fff;
+ }
+ 
+
+.show-grid [class^="col-"] {
+    padding-top:10px;
+    padding-bottom:10px;
+    height: 544px;
+    max-height: 544px;
+}
+
+
+.titulo-login { 
+    border:0 solid #fff; 
+    padding-bottom:10px;
+    text-align: left;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+h4 {
+    color: #acb720 !important;
+}
+
+.follow {
+    height: 80px;
+    cursor:pointer;
+}
+
+.follow:hover {
+    height: 80px;
+    cursor:pointer;
+}
+
+#imgls {
+ display: block;
+}
+
+#imgls img.taza {
+    position: absolute;
+    left: 7%;
+    top: 450px;
+    z-index: 1;
+}
+
+#imgls img.cel {
+    position: absolute;
+    left: 6%;
+    top: 100px;
+}
+
+@media screen and (max-width: 1600px) {
+    #imgls {
+        display: none;
+    }
+}
